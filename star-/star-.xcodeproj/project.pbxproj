@@ -13,6 +13,7 @@
 		C2DE35CC1C9A3EB2000DE337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DE35CA1C9A3EB2000DE337 /* Main.storyboard */; };
 		C2DE35CE1C9A3EB2000DE337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DE35CD1C9A3EB2000DE337 /* Assets.xcassets */; };
 		C2DE35D11C9A3EB2000DE337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DE35CF1C9A3EB2000DE337 /* LaunchScreen.storyboard */; };
+		C2DE35DA1C9A44E8000DE337 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DE35D91C9A44E8000DE337 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C2DE35CD1C9A3EB2000DE337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2DE35D01C9A3EB2000DE337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2DE35D21C9A3EB3000DE337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DE35D81C9A44E8000DE337 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		C2DE35D91C9A44E8000DE337 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				C2DE35C41C9A3EB2000DE337 /* AppDelegate.h */,
 				C2DE35C51C9A3EB2000DE337 /* AppDelegate.m */,
+				C2DE35D81C9A44E8000DE337 /* TableViewController.h */,
+				C2DE35D91C9A44E8000DE337 /* TableViewController.m */,
 				C2DE35C71C9A3EB2000DE337 /* ViewController.h */,
 				C2DE35C81C9A3EB2000DE337 /* ViewController.m */,
 				C2DE35CA1C9A3EB2000DE337 /* Main.storyboard */,
@@ -153,6 +158,7 @@
 				C2DE35C91C9A3EB2000DE337 /* ViewController.m in Sources */,
 				C2DE35C61C9A3EB2000DE337 /* AppDelegate.m in Sources */,
 				C2DE35C31C9A3EB2000DE337 /* main.m in Sources */,
+				C2DE35DA1C9A44E8000DE337 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
